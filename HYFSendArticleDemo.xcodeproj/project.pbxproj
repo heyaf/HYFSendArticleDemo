@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06EAD771C8FE3DED16FCD84B /* Pods_HYFSendArticleDemo_HYFSendArticleDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960EB8C969EDA83182C4E0E /* Pods_HYFSendArticleDemo_HYFSendArticleDemoUITests.framework */; };
+		465E23BBB96614CDBD94B503 /* Pods_HYFSendArticleDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E338BD47283AEDC785073F8 /* Pods_HYFSendArticleDemoTests.framework */; };
+		AB033F6E24EA7ADC001597D6 /* HYFSendArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB033F6D24EA7ADC001597D6 /* HYFSendArticleViewController.m */; };
+		AB033F7B24EA7B9A001597D6 /* LMParagraphConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AB033F7224EA7B99001597D6 /* LMParagraphConfig.m */; };
+		AB033F7C24EA7B9A001597D6 /* NSTextAttachment+LMText.m in Sources */ = {isa = PBXBuildFile; fileRef = AB033F7424EA7B99001597D6 /* NSTextAttachment+LMText.m */; };
+		AB033F7D24EA7B9A001597D6 /* LMTextHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AB033F7524EA7B99001597D6 /* LMTextHTMLParser.m */; };
+		AB033F7E24EA7B9A001597D6 /* UIFont+LMText.m in Sources */ = {isa = PBXBuildFile; fileRef = AB033F7624EA7B99001597D6 /* UIFont+LMText.m */; };
+		AB033F7F24EA7B9A001597D6 /* UITextView+GYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB033F7A24EA7B9A001597D6 /* UITextView+GYCategory.m */; };
+		AB033F8224EA7BD9001597D6 /* JXPCNotesSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB033F8024EA7BD9001597D6 /* JXPCNotesSectionViewController.m */; };
+		AB033F8624EA7EB8001597D6 /* UIView+viewtoImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB033F8524EA7EB8001597D6 /* UIView+viewtoImage.m */; };
+		AB033F8924EA7EFB001597D6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AB033F8824EA7EFB001597D6 /* UIView+Frame.m */; };
+		AB033F8C24EA7FD4001597D6 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB033F8B24EA7FD4001597D6 /* NSString+Tool.m */; };
+		ABFA636524E3BA5100CB1CDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA636424E3BA5100CB1CDA /* AppDelegate.m */; };
+		ABFA636B24E3BA5100CB1CDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA636A24E3BA5100CB1CDA /* ViewController.m */; };
+		ABFA636E24E3BA5100CB1CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFA636C24E3BA5100CB1CDA /* Main.storyboard */; };
+		ABFA637024E3BA5500CB1CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFA636F24E3BA5500CB1CDA /* Assets.xcassets */; };
+		ABFA637324E3BA5500CB1CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFA637124E3BA5500CB1CDA /* LaunchScreen.storyboard */; };
+		ABFA637624E3BA5500CB1CDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA637524E3BA5500CB1CDA /* main.m */; };
+		ABFA638024E3BA5500CB1CDA /* HYFSendArticleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA637F24E3BA5500CB1CDA /* HYFSendArticleDemoTests.m */; };
+		ABFA638B24E3BA5500CB1CDA /* HYFSendArticleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA638A24E3BA5500CB1CDA /* HYFSendArticleDemoUITests.m */; };
+		CD756C836F7F7A4289C57F55 /* Pods_HYFSendArticleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E7AD8BCDB3C493FF4009A9 /* Pods_HYFSendArticleDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABFA637C24E3BA5500CB1CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABFA635824E3BA5100CB1CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFA635F24E3BA5100CB1CDA;
+			remoteInfo = HYFSendArticleDemo;
+		};
+		ABFA638724E3BA5500CB1CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABFA635824E3BA5100CB1CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFA635F24E3BA5100CB1CDA;
+			remoteInfo = HYFSendArticleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB5308847F2105264B68C46 /* Pods-HYFSendArticleDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYFSendArticleDemoTests.release.xcconfig"; path = "Target Support Files/Pods-HYFSendArticleDemoTests/Pods-HYFSendArticleDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E338BD47283AEDC785073F8 /* Pods_HYFSendArticleDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYFSendArticleDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		396A3325F5A95D4EF78BF1C8 /* Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4960EB8C969EDA83182C4E0E /* Pods_HYFSendArticleDemo_HYFSendArticleDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYFSendArticleDemo_HYFSendArticleDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3BB5DC6BB29FA27D52E6CB /* Pods-HYFSendArticleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYFSendArticleDemo.release.xcconfig"; path = "Target Support Files/Pods-HYFSendArticleDemo/Pods-HYFSendArticleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		55E7AD8BCDB3C493FF4009A9 /* Pods_HYFSendArticleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYFSendArticleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA64338FB8578C29744CE0D /* Pods-HYFSendArticleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYFSendArticleDemo.debug.xcconfig"; path = "Target Support Files/Pods-HYFSendArticleDemo/Pods-HYFSendArticleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		957EAEF144781F2C043334FD /* Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB033F6C24EA7ADC001597D6 /* HYFSendArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYFSendArticleViewController.h; sourceTree = "<group>"; };
+		AB033F6D24EA7ADC001597D6 /* HYFSendArticleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFSendArticleViewController.m; sourceTree = "<group>"; };
+		AB033F7024EA7B99001597D6 /* LMTextHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMTextHTMLParser.h; sourceTree = "<group>"; };
+		AB033F7124EA7B99001597D6 /* NSTextAttachment+LMText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextAttachment+LMText.h"; sourceTree = "<group>"; };
+		AB033F7224EA7B99001597D6 /* LMParagraphConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMParagraphConfig.m; sourceTree = "<group>"; };
+		AB033F7324EA7B99001597D6 /* UIFont+LMText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LMText.h"; sourceTree = "<group>"; };
+		AB033F7424EA7B99001597D6 /* NSTextAttachment+LMText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextAttachment+LMText.m"; sourceTree = "<group>"; };
+		AB033F7524EA7B99001597D6 /* LMTextHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMTextHTMLParser.m; sourceTree = "<group>"; };
+		AB033F7624EA7B99001597D6 /* UIFont+LMText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LMText.m"; sourceTree = "<group>"; };
+		AB033F7724EA7B99001597D6 /* LMParagraphConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMParagraphConfig.h; sourceTree = "<group>"; };
+		AB033F7924EA7B9A001597D6 /* UITextView+GYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+GYCategory.h"; sourceTree = "<group>"; };
+		AB033F7A24EA7B9A001597D6 /* UITextView+GYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+GYCategory.m"; sourceTree = "<group>"; };
+		AB033F8024EA7BD9001597D6 /* JXPCNotesSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPCNotesSectionViewController.m; sourceTree = "<group>"; };
+		AB033F8124EA7BD9001597D6 /* JXPCNotesSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPCNotesSectionViewController.h; sourceTree = "<group>"; };
+		AB033F8324EA7C11001597D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AB033F8424EA7EB8001597D6 /* UIView+viewtoImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+viewtoImage.h"; sourceTree = "<group>"; };
+		AB033F8524EA7EB8001597D6 /* UIView+viewtoImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+viewtoImage.m"; sourceTree = "<group>"; };
+		AB033F8724EA7EFB001597D6 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		AB033F8824EA7EFB001597D6 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		AB033F8A24EA7FD4001597D6 /* NSString+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
+		AB033F8B24EA7FD4001597D6 /* NSString+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
+		ABFA636024E3BA5100CB1CDA /* HYFSendArticleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYFSendArticleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFA636324E3BA5100CB1CDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABFA636424E3BA5100CB1CDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABFA636924E3BA5100CB1CDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABFA636A24E3BA5100CB1CDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABFA636D24E3BA5100CB1CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABFA636F24E3BA5500CB1CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABFA637224E3BA5500CB1CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABFA637424E3BA5500CB1CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFA637524E3BA5500CB1CDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABFA637B24E3BA5500CB1CDA /* HYFSendArticleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYFSendArticleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFA637F24E3BA5500CB1CDA /* HYFSendArticleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFSendArticleDemoTests.m; sourceTree = "<group>"; };
+		ABFA638124E3BA5500CB1CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFA638624E3BA5500CB1CDA /* HYFSendArticleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYFSendArticleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFA638A24E3BA5500CB1CDA /* HYFSendArticleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFSendArticleDemoUITests.m; sourceTree = "<group>"; };
+		ABFA638C24E3BA5500CB1CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E630DEF625CE10EF8B393ECC /* Pods-HYFSendArticleDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYFSendArticleDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-HYFSendArticleDemoTests/Pods-HYFSendArticleDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABFA635D24E3BA5100CB1CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD756C836F7F7A4289C57F55 /* Pods_HYFSendArticleDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFA637824E3BA5500CB1CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465E23BBB96614CDBD94B503 /* Pods_HYFSendArticleDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFA638324E3BA5500CB1CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EAD771C8FE3DED16FCD84B /* Pods_HYFSendArticleDemo_HYFSendArticleDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F00CFE2597D82D25D14D90D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DA64338FB8578C29744CE0D /* Pods-HYFSendArticleDemo.debug.xcconfig */,
+				4A3BB5DC6BB29FA27D52E6CB /* Pods-HYFSendArticleDemo.release.xcconfig */,
+				957EAEF144781F2C043334FD /* Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests.debug.xcconfig */,
+				396A3325F5A95D4EF78BF1C8 /* Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests.release.xcconfig */,
+				E630DEF625CE10EF8B393ECC /* Pods-HYFSendArticleDemoTests.debug.xcconfig */,
+				0DB5308847F2105264B68C46 /* Pods-HYFSendArticleDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB033F6B24EA7ABD001597D6 /* HYFSendArticle */ = {
+			isa = PBXGroup;
+			children = (
+				AB033F7824EA7B9A001597D6 /* GYUITextView */,
+				AB033F6F24EA7B99001597D6 /* Html生成 */,
+				AB033F6C24EA7ADC001597D6 /* HYFSendArticleViewController.h */,
+				AB033F6D24EA7ADC001597D6 /* HYFSendArticleViewController.m */,
+				AB033F8124EA7BD9001597D6 /* JXPCNotesSectionViewController.h */,
+				AB033F8024EA7BD9001597D6 /* JXPCNotesSectionViewController.m */,
+				AB033F8424EA7EB8001597D6 /* UIView+viewtoImage.h */,
+				AB033F8524EA7EB8001597D6 /* UIView+viewtoImage.m */,
+				AB033F8724EA7EFB001597D6 /* UIView+Frame.h */,
+				AB033F8824EA7EFB001597D6 /* UIView+Frame.m */,
+				AB033F8A24EA7FD4001597D6 /* NSString+Tool.h */,
+				AB033F8B24EA7FD4001597D6 /* NSString+Tool.m */,
+			);
+			path = HYFSendArticle;
+			sourceTree = "<group>";
+		};
+		AB033F6F24EA7B99001597D6 /* Html生成 */ = {
+			isa = PBXGroup;
+			children = (
+				AB033F7024EA7B99001597D6 /* LMTextHTMLParser.h */,
+				AB033F7124EA7B99001597D6 /* NSTextAttachment+LMText.h */,
+				AB033F7224EA7B99001597D6 /* LMParagraphConfig.m */,
+				AB033F7324EA7B99001597D6 /* UIFont+LMText.h */,
+				AB033F7424EA7B99001597D6 /* NSTextAttachment+LMText.m */,
+				AB033F7524EA7B99001597D6 /* LMTextHTMLParser.m */,
+				AB033F7624EA7B99001597D6 /* UIFont+LMText.m */,
+				AB033F7724EA7B99001597D6 /* LMParagraphConfig.h */,
+			);
+			path = "Html生成";
+			sourceTree = "<group>";
+		};
+		AB033F7824EA7B9A001597D6 /* GYUITextView */ = {
+			isa = PBXGroup;
+			children = (
+				AB033F7924EA7B9A001597D6 /* UITextView+GYCategory.h */,
+				AB033F7A24EA7B9A001597D6 /* UITextView+GYCategory.m */,
+			);
+			path = GYUITextView;
+			sourceTree = "<group>";
+		};
+		ABFA635724E3BA5100CB1CDA = {
+			isa = PBXGroup;
+			children = (
+				ABFA636224E3BA5100CB1CDA /* HYFSendArticleDemo */,
+				ABFA637E24E3BA5500CB1CDA /* HYFSendArticleDemoTests */,
+				ABFA638924E3BA5500CB1CDA /* HYFSendArticleDemoUITests */,
+				ABFA636124E3BA5100CB1CDA /* Products */,
+				1F00CFE2597D82D25D14D90D /* Pods */,
+				F0697A941FF313E04638AF0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABFA636124E3BA5100CB1CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA636024E3BA5100CB1CDA /* HYFSendArticleDemo.app */,
+				ABFA637B24E3BA5500CB1CDA /* HYFSendArticleDemoTests.xctest */,
+				ABFA638624E3BA5500CB1CDA /* HYFSendArticleDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABFA636224E3BA5100CB1CDA /* HYFSendArticleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB033F6B24EA7ABD001597D6 /* HYFSendArticle */,
+				ABFA636324E3BA5100CB1CDA /* AppDelegate.h */,
+				ABFA636424E3BA5100CB1CDA /* AppDelegate.m */,
+				ABFA636924E3BA5100CB1CDA /* ViewController.h */,
+				ABFA636A24E3BA5100CB1CDA /* ViewController.m */,
+				ABFA636C24E3BA5100CB1CDA /* Main.storyboard */,
+				ABFA636F24E3BA5500CB1CDA /* Assets.xcassets */,
+				ABFA637124E3BA5500CB1CDA /* LaunchScreen.storyboard */,
+				ABFA637424E3BA5500CB1CDA /* Info.plist */,
+				ABFA637524E3BA5500CB1CDA /* main.m */,
+				AB033F8324EA7C11001597D6 /* PrefixHeader.pch */,
+			);
+			path = HYFSendArticleDemo;
+			sourceTree = "<group>";
+		};
+		ABFA637E24E3BA5500CB1CDA /* HYFSendArticleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA637F24E3BA5500CB1CDA /* HYFSendArticleDemoTests.m */,
+				ABFA638124E3BA5500CB1CDA /* Info.plist */,
+			);
+			path = HYFSendArticleDemoTests;
+			sourceTree = "<group>";
+		};
+		ABFA638924E3BA5500CB1CDA /* HYFSendArticleDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA638A24E3BA5500CB1CDA /* HYFSendArticleDemoUITests.m */,
+				ABFA638C24E3BA5500CB1CDA /* Info.plist */,
+			);
+			path = HYFSendArticleDemoUITests;
+			sourceTree = "<group>";
+		};
+		F0697A941FF313E04638AF0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E7AD8BCDB3C493FF4009A9 /* Pods_HYFSendArticleDemo.framework */,
+				4960EB8C969EDA83182C4E0E /* Pods_HYFSendArticleDemo_HYFSendArticleDemoUITests.framework */,
+				0E338BD47283AEDC785073F8 /* Pods_HYFSendArticleDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABFA635F24E3BA5100CB1CDA /* HYFSendArticleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFA638F24E3BA5500CB1CDA /* Build configuration list for PBXNativeTarget "HYFSendArticleDemo" */;
+			buildPhases = (
+				BC099EB890A8B727DFF908AA /* [CP] Check Pods Manifest.lock */,
+				ABFA635C24E3BA5100CB1CDA /* Sources */,
+				ABFA635D24E3BA5100CB1CDA /* Frameworks */,
+				ABFA635E24E3BA5100CB1CDA /* Resources */,
+				CF1AB02D8558F35F8555F1B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYFSendArticleDemo;
+			productName = HYFSendArticleDemo;
+			productReference = ABFA636024E3BA5100CB1CDA /* HYFSendArticleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABFA637A24E3BA5500CB1CDA /* HYFSendArticleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFA639224E3BA5500CB1CDA /* Build configuration list for PBXNativeTarget "HYFSendArticleDemoTests" */;
+			buildPhases = (
+				F0F9A8CA2187239AE763E7E2 /* [CP] Check Pods Manifest.lock */,
+				ABFA637724E3BA5500CB1CDA /* Sources */,
+				ABFA637824E3BA5500CB1CDA /* Frameworks */,
+				ABFA637924E3BA5500CB1CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFA637D24E3BA5500CB1CDA /* PBXTargetDependency */,
+			);
+			name = HYFSendArticleDemoTests;
+			productName = HYFSendArticleDemoTests;
+			productReference = ABFA637B24E3BA5500CB1CDA /* HYFSendArticleDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABFA638524E3BA5500CB1CDA /* HYFSendArticleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFA639524E3BA5500CB1CDA /* Build configuration list for PBXNativeTarget "HYFSendArticleDemoUITests" */;
+			buildPhases = (
+				F8B961F027B4DC92C6C59CC0 /* [CP] Check Pods Manifest.lock */,
+				ABFA638224E3BA5500CB1CDA /* Sources */,
+				ABFA638324E3BA5500CB1CDA /* Frameworks */,
+				ABFA638424E3BA5500CB1CDA /* Resources */,
+				0B50D7604BF2637CC18E3D3F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFA638824E3BA5500CB1CDA /* PBXTargetDependency */,
+			);
+			name = HYFSendArticleDemoUITests;
+			productName = HYFSendArticleDemoUITests;
+			productReference = ABFA638624E3BA5500CB1CDA /* HYFSendArticleDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABFA635824E3BA5100CB1CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = heyafei;
+				TargetAttributes = {
+					ABFA635F24E3BA5100CB1CDA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					ABFA637A24E3BA5500CB1CDA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = ABFA635F24E3BA5100CB1CDA;
+					};
+					ABFA638524E3BA5500CB1CDA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = ABFA635F24E3BA5100CB1CDA;
+					};
+				};
+			};
+			buildConfigurationList = ABFA635B24E3BA5100CB1CDA /* Build configuration list for PBXProject "HYFSendArticleDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABFA635724E3BA5100CB1CDA;
+			productRefGroup = ABFA636124E3BA5100CB1CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABFA635F24E3BA5100CB1CDA /* HYFSendArticleDemo */,
+				ABFA637A24E3BA5500CB1CDA /* HYFSendArticleDemoTests */,
+				ABFA638524E3BA5500CB1CDA /* HYFSendArticleDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABFA635E24E3BA5100CB1CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA637324E3BA5500CB1CDA /* LaunchScreen.storyboard in Resources */,
+				ABFA637024E3BA5500CB1CDA /* Assets.xcassets in Resources */,
+				ABFA636E24E3BA5100CB1CDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFA637924E3BA5500CB1CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFA638424E3BA5500CB1CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B50D7604BF2637CC18E3D3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC099EB890A8B727DFF908AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYFSendArticleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1AB02D8558F35F8555F1B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYFSendArticleDemo/Pods-HYFSendArticleDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYFSendArticleDemo/Pods-HYFSendArticleDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HYFSendArticleDemo/Pods-HYFSendArticleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F9A8CA2187239AE763E7E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYFSendArticleDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B961F027B4DC92C6C59CC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABFA635C24E3BA5100CB1CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB033F6E24EA7ADC001597D6 /* HYFSendArticleViewController.m in Sources */,
+				ABFA636B24E3BA5100CB1CDA /* ViewController.m in Sources */,
+				ABFA636524E3BA5100CB1CDA /* AppDelegate.m in Sources */,
+				ABFA637624E3BA5500CB1CDA /* main.m in Sources */,
+				AB033F7C24EA7B9A001597D6 /* NSTextAttachment+LMText.m in Sources */,
+				AB033F8924EA7EFB001597D6 /* UIView+Frame.m in Sources */,
+				AB033F7D24EA7B9A001597D6 /* LMTextHTMLParser.m in Sources */,
+				AB033F8C24EA7FD4001597D6 /* NSString+Tool.m in Sources */,
+				AB033F7E24EA7B9A001597D6 /* UIFont+LMText.m in Sources */,
+				AB033F8624EA7EB8001597D6 /* UIView+viewtoImage.m in Sources */,
+				AB033F7B24EA7B9A001597D6 /* LMParagraphConfig.m in Sources */,
+				AB033F7F24EA7B9A001597D6 /* UITextView+GYCategory.m in Sources */,
+				AB033F8224EA7BD9001597D6 /* JXPCNotesSectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFA637724E3BA5500CB1CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA638024E3BA5500CB1CDA /* HYFSendArticleDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFA638224E3BA5500CB1CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA638B24E3BA5500CB1CDA /* HYFSendArticleDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABFA637D24E3BA5500CB1CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFA635F24E3BA5100CB1CDA /* HYFSendArticleDemo */;
+			targetProxy = ABFA637C24E3BA5500CB1CDA /* PBXContainerItemProxy */;
+		};
+		ABFA638824E3BA5500CB1CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFA635F24E3BA5100CB1CDA /* HYFSendArticleDemo */;
+			targetProxy = ABFA638724E3BA5500CB1CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABFA636C24E3BA5100CB1CDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFA636D24E3BA5100CB1CDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABFA637124E3BA5500CB1CDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFA637224E3BA5500CB1CDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABFA638D24E3BA5500CB1CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABFA638E24E3BA5500CB1CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABFA639024E3BA5500CB1CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA64338FB8578C29744CE0D /* Pods-HYFSendArticleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M334DN77PT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HYFSendArticleDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = HYFSendArticleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heyafeiwww.HYFSendArticleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABFA639124E3BA5500CB1CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3BB5DC6BB29FA27D52E6CB /* Pods-HYFSendArticleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M334DN77PT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HYFSendArticleDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = HYFSendArticleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heyafeiwww.HYFSendArticleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABFA639324E3BA5500CB1CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E630DEF625CE10EF8B393ECC /* Pods-HYFSendArticleDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M334DN77PT;
+				INFOPLIST_FILE = HYFSendArticleDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douyin.www.HYFSendArticleDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYFSendArticleDemo.app/HYFSendArticleDemo";
+			};
+			name = Debug;
+		};
+		ABFA639424E3BA5500CB1CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB5308847F2105264B68C46 /* Pods-HYFSendArticleDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M334DN77PT;
+				INFOPLIST_FILE = HYFSendArticleDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douyin.www.HYFSendArticleDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYFSendArticleDemo.app/HYFSendArticleDemo";
+			};
+			name = Release;
+		};
+		ABFA639624E3BA5500CB1CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957EAEF144781F2C043334FD /* Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M334DN77PT;
+				INFOPLIST_FILE = HYFSendArticleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douyin.www.HYFSendArticleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYFSendArticleDemo;
+			};
+			name = Debug;
+		};
+		ABFA639724E3BA5500CB1CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 396A3325F5A95D4EF78BF1C8 /* Pods-HYFSendArticleDemo-HYFSendArticleDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M334DN77PT;
+				INFOPLIST_FILE = HYFSendArticleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douyin.www.HYFSendArticleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYFSendArticleDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABFA635B24E3BA5100CB1CDA /* Build configuration list for PBXProject "HYFSendArticleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFA638D24E3BA5500CB1CDA /* Debug */,
+				ABFA638E24E3BA5500CB1CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFA638F24E3BA5500CB1CDA /* Build configuration list for PBXNativeTarget "HYFSendArticleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFA639024E3BA5500CB1CDA /* Debug */,
+				ABFA639124E3BA5500CB1CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFA639224E3BA5500CB1CDA /* Build configuration list for PBXNativeTarget "HYFSendArticleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFA639324E3BA5500CB1CDA /* Debug */,
+				ABFA639424E3BA5500CB1CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFA639524E3BA5500CB1CDA /* Build configuration list for PBXNativeTarget "HYFSendArticleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFA639624E3BA5500CB1CDA /* Debug */,
+				ABFA639724E3BA5500CB1CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABFA635824E3BA5100CB1CDA /* Project object */;
+}

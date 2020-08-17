@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (6.5.6)
+  - TZImagePickerController (3.4.1)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - TZImagePickerController
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  TZImagePickerController: 4e7a7b3d314f8a75f11042931dfd9d34c270c7db
+
+PODFILE CHECKSUM: 9fbc58fb9092e0041b2793f1e80da93a493a90e8
+
+COCOAPODS: 1.9.1
